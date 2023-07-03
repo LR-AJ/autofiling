@@ -57,6 +57,7 @@
                                 <a href="offshore-bank-account.html" class="dropdown-item ">Offshore Bank Account</a>
                                 <a href="employer-identifier-number.html" class="dropdown-item ">EIN Service</a>
                                 <a href="s-corp-company-formation.html" class="dropdown-item ">S-corp Company Formation</a>
+                                    <a href="corporate-secretrial-service.html" class="dropdown-item ">Corporate Secretrial Service</a>
                             </div>
                         </div>
                         <a href="#about" class="nav-item nav-link">About</a>
@@ -577,7 +578,7 @@
                                         <input type="hidden" name="service_code" value="001" id="service-code">
                                         <input type="hidden" name="title" value="contact-us-autofile">                                                                           ">
                                         <input type="hidden" name="redirect" value="/thanks.html">
-                                        <input type="hidden" name="analytics" id="analytics1" />
+                                        <input type="hidden" name="analytics" id="analytics2" />
                                         <div class="col-lg-9 col-9 ">
                                             <button class="btn btn-dark text-white py-2 fw-bold w-100 " type="submit">Proceed</button>
                                         </div>
@@ -689,6 +690,8 @@
         $(function () {
             $("#data").load("animation.html");
         }); 
+        document.getElementById("analytics1").value = window.location.href;
+        document.getElementById("analytics2").value = window.location.href;
     </script>
     <!-- <script src="lib/counterup/counterup.min.js"></script> -->
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
