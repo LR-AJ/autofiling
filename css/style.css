@@ -162,7 +162,7 @@ h6,
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
-    content: "\f067";
+    content: "\f103";
     font-family: "Font Awesome 5 Free";
     font-size: 10px;
     font-weight: bold;
@@ -198,7 +198,7 @@ h6,
     background-image: linear-gradient(82.86deg,#000577 -19.93%,#00a3ff 75.2%),linear-gradient(89.75deg,#ba3838 -4.9%,red 97.56%);
 }
 .sticky-top.navbar a {
-    padding: 20px 0;
+    padding: 0.7rem 1rem;
      -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -278,14 +278,14 @@ h6,
         display: block;
         border: none;
         margin-top: 0;
-        top: 150%;
+        top: 80%;
         opacity: 0;
         visibility: hidden;
         transition: .5s;
     }
 
     .navbar .navbar-nav .nav-item:hover .dropdown-menu {
-        top: 100%;
+        top: 90%;
         visibility: visible;
         transition: .5s;
         opacity: 1;
