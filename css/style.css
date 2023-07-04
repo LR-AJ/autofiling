@@ -25,12 +25,16 @@ html {
     visibility: visible;
     opacity: 1;
 }
-
+.b24-widget-button-position-bottom-right{
+    right: 55px !important;
+    bottom: 100px !important;
+    left: auto !important;
+}
 .back-to-top {
     position: fixed;
     display: none;
-    right: 45px;
-    bottom: 45px;
+    right: 60px;
+    bottom: 25px;
     z-index: 99;
 }
 
