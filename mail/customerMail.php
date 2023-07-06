@@ -56,7 +56,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 		$custmail->SMTPSecure = "ssl";
 		//Email Settings
 		$custmail->isHTML(true);
-		$custmail->setFrom('testlegal125@gmail.com', 'COR.com');
+		$custmail->setFrom('testlegal125@gmail.com', 'Autofiling.com');
 		$custmail->addAddress($_POST['email'], $_POST['name']);
 		$custmail->Subject = ucwords("Thank you For Showing Interest In. $service_name[$service_code]");
         if(isset($_POST['service_code']) && $service_code == '001') {
